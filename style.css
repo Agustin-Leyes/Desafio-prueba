@@ -1,0 +1,209 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+ box-sizing: border-box;}
+
+body{
+    font-family:  sans-serif;
+}
+
+html {
+
+    font: size 62.5%;
+}
+
+
+/*-------INICIO DE HEADER----------*/
+
+.header{
+    height: 8rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(8,14,59,1) 43%, rgba(20,39,99,1) 80%, rgba(20,39,99,1) 80%, rgba(23,45,109,1) 92%);
+    
+    /* background-color: #062C30; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header nav ul{
+    list-style: none;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    
+    }
+
+header nav ul li{
+    padding-left: 7rem;
+    padding-bottom: 2rem ;
+    
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #EFFFFD;
+    text-shadow: 1px 3.5px 3.5px  black;
+}
+
+.container-nav{
+    
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.listadonav:hover{
+    color: rgb(90, 89, 89);
+    text-shadow: 0;
+}
+
+.loguearse{
+    padding-right: 0.7rem ;
+    padding-top: 0.3rem;
+    text-decoration: none;
+    
+}
+
+.loguearse ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.loguearse ul li{
+    padding-right: 1rem;
+}
+
+.loguearse ul li a{
+    color: rgb(22, 68, 151);
+    text-decoration: none;
+}
+
+
+
+.container-img{
+ 
+ width: 8rem;
+ height: 6.9rem;
+ overflow: hidden;
+ position: relative;
+ bottom: 1rem;
+     
+}
+
+.header img{
+width: 11rem;
+height: auto;
+
+
+}
+
+
+/* EMPIEZA EL INICIO */
+
+ #index{
+     height: 1300px;
+     margin: 0px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.500),rgba(0, 0, 0, 0.400)) ,url(imagenes/FOTOINICIO.jpeg);
+    background-size: cover;
+    
+} 
+
+
+
+
+#index h1{
+    display:flex;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(247, 232, 232);
+    padding-top: 5px;
+}
+
+.parrafo-inicio p{
+    color: rgba(240, 248, 255, 0.455);
+}
+
+.titulo-h3{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+     width: 35%; 
+    font-size: 1.5rem;
+    color: rgba(220, 220, 220, 0.745);
+    padding-top: 1rem;
+}
+
+
+.conteiner-explicacion{
+    display: flex;  
+}
+
+.conteiner-parrafo{
+    margin: 1.5rem;
+    max-height: 20rem;
+    width: 50rem;
+    color: rgba(214, 141, 5, 0.674);
+    text-align:left;
+    display: flex;
+    overflow-y: scroll;
+}
+
+.texto-h3{
+font-size: 1.3rem;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+
+
+/* FIN DE INICIO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INICIO DE FOOTER */
+
+footer{
+    width: 100%;
+    height: 10rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(4,4,43,1) 0%, rgba(17,32,89,1) 0%, rgba(23,45,109,1) 98%, rgba(23,45,109,1) 98%);
+    display:flex;
+    justify-content: center;
+
+}
+
+.contenedor-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo-footer img{
+    width: 7rem;
+    height: auto;
+}
+
+.imagenes-footer a img{
+    width: 3rem;
+    height: auto;
+}
+
+    /* me falta terminar el footer */
+
+    /* se me hace que estoy haciendo un quilombo con los codigos de css o no los aplico bien. */
